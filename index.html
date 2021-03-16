@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio IMC 2</title>
+
+    <style>
+        body {
+            background: wheat;
+            color: rgb(202, 83, 83);
+            font: normal 15pt Verdana;
+            text-align: center;
+        }
+
+        div {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Calculadora de IMC</h1>
+    <div>
+        Digite seu nome: <input type="text" name="nome" id="nome"></br>
+        Idade: <input type="number" name="idade" id="idade"></br>
+        Sexo:
+       <input type="radio" name="sexo" id="sexo1" onclick="sexo1()">
+       Masculino<label for="sexo1"></label>
+       Feminino<label for="sexo2"></label>
+       <input type="radio" name="sexo" id="sexo2" onclick="sexo2()"></br>
+        Altura (m): <input type="number" name="altura" id="altura"> (Ex: 1.75)</br>
+        Peso (kg): <input type="number" name="peso" id="peso"> (Ex: 80.5)</br>
+        <input type="button" value="Calcular" onclick="calcular()">
+    </div>
+    <div>
+        <h3>Resultado</h3>
+
+        <p id="resultado"></p></br>
+   
+        <div id="foto"></div>   
+        <p id="descricao"></p>
+    </div>
+
+    <script = src="script.js">
+            
+            
+    </script>
+</body>
+
+</html>
